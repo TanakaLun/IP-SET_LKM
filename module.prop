@@ -1,4 +1,4 @@
-id=IPSET
+id=ipset
 name=IPSET LKM For GKI Devices
 version=mafuyo
 versionCode=6

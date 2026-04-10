@@ -10,7 +10,7 @@ if [ -z "$MODID" ]; then
     abort
 fi
 
-TARGET_DIR="/data/modules/$MODID"
+TARGET_DIR="/data/adb/modules/$MODID"
 mkdir -p "$TARGET_DIR"
 if [ -d "$MODPATH/bin" ]; then
     cp -rf "$MODPATH/bin" "$TARGET_DIR/"
