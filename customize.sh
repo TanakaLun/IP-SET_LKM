@@ -20,6 +20,7 @@ else
 fi
 
 set_perm_recursive "$TARGET_DIR/bin" 0 0 0755 0755
+set_perm_recursive "$MODPATH/bin" 0 0 0755 0755
 
 BIN_DIR=$(echo "$PATH" | tr ':' '\n' | grep '/data/.*bin' | head -1)
 
