@@ -2,7 +2,7 @@
 MODDIR=${0%/*}
 cd /data/adb/netfilter || exit
 
-i() { $MODDIR/bin/ksud debug insmod "$@"; }
+i() { $MODDIR/lib/libksud.so insmod "$@"; }
 
 i ipset/ip_set.ko
 
