@@ -34,5 +34,5 @@ ui_print "- Binary Installation completed. Binary placed in $TARGET_DIR/bin"
     rm -rf "/data/adb/netfilter"
     mv "$MODPATH/netfilter" "/data/adb/"
     chmod -R 755 "/data/adb/netfilter"
-    ui_print "- IPSET has been installed"
+    ui_print "- IPSET LKM has been installed"
 }
